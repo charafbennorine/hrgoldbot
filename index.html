@@ -1,54 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HRgold.bot</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background: url('an.png') no-repeat center center fixed;
-            background-size: cover;
-        }
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-            height: 100vh;
-        }
-        .card {
-            background: rgba(38, 39, 39, 0.8);
-            border-radius: 10px;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 4px 15px rgba(86, 51, 127, 0.1);
-            transition: transform 0.3s ease;
-            margin-bottom: 20px;
-            text-decoration: none;
-            color: rgb(82, 51, 144);
-        }
-        .card:hover {
-            transform: scale(1.05);
-        }
-        .telegram-icon {
-            width: 50px;
-            height: 50px;
-            margin-right: 10px;
-            
-        }
-        
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HRgold.bot - Coming Soon</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- SEO & Social Media -->
+  <meta name="description" content="HRgold.bot is a powerful mini app for human resource optimization. Coming soon.">
+  <meta property="og:title" content="HRgold.bot - Coming Soon">
+  <meta property="og:description" content="Join us as we build a smarter HR assistant.">
+  <meta property="og:image" content="https://yourdomain.com/preview.png">
+  <meta property="og:url" content="https://yourdomain.com">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0e0e0e, #1a1a1a);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .logo {
+      font-size: 2.5rem;
+      color: #d4af37;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .subtitle {
+      color: #a582e9;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .coming-soon {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #ffd700;
+      margin: 40px 0 20px;
+      letter-spacing: 2px;
+    }
+
+    .join-btn {
+      background: #a582e9;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 1rem;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+    }
+
+    .join-btn:hover {
+      background: #8a63d2;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    @media (max-width: 480px) {
+      .coming-soon {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <a href="https://t.me/HRgoldbotcommunity" class="card">
-            <img src="t.png" alt="Telegram" class="telegram-icon">
-            <h1>Join us</h1>
-        </a>
-    </div>
-    
+
+  <div class="logo" role="banner">HRgold.bot</div>
+  <div class="subtitle">Mini App Coming Soon</div>
+  <div class="coming-soon">COMING SOON</div>
+
+  <a href="https://t.me/HRgoldbotcommunity" class="join-btn" target="_blank" rel="noopener noreferrer">
+    Join Us on Telegram
+  </a>
+
+  <div class="footer">©️ 2025 HRgold - All rights reserved</div>
+
 </body>
 </html>
